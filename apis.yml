@@ -1,0 +1,32 @@
+aid: covid-id
+name: COVID-ID
+description: "Indonesian government Covid data per province"
+url: https://data.covid19.go.id/public/api/prov.json
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Health"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Health
+  - Public APIs
+apis:
+  - name: COVID-ID
+    description: "Indonesian government Covid data per province"
+    humanURL: https://data.covid19.go.id/public/api/prov.json
+    baseURL: https://data.covid19.go.id/public/api/prov.json
+    tags:
+      - Health
+    properties:
+      - type: Documentation
+        url: https://data.covid19.go.id/public/api/prov.json
+common:
+  - type: Website
+    url: https://data.covid19.go.id/public/api/prov.json
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
